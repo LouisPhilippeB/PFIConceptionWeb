@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(55, 11, 95);
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.texte {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.texte p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 836px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .audio, .image {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .texte {
+        padding: 15px;
+    }
+}
